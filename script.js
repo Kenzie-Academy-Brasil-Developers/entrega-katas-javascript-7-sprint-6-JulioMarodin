@@ -12,7 +12,7 @@ function newForEach(array, callback) {
     }
 }
 
-// console.log(newForEach(arrayForEach, showItemForEach));
+console.log(newForEach(arrayForEach, showItemForEach));
 
 /** Fill Function */
 let arrayFill = [1, 2, 3, 5, 7, 8, 9];
@@ -24,7 +24,7 @@ function newFill(array, value, start = 0, end = array.length) {
     return array;
 }
 
-// console.log(newFill(arrayFill, 4, 1, 5));
+console.log(newFill(arrayFill, 4, 1, 5));
 
 /** Map Function */
 
@@ -40,7 +40,7 @@ function newMap(array, callback) {
     }
     return mapOutput;
 }
-// console.log(newMap(['maça', 'uva', 'morango'], mapCallback));
+console.log(newMap(['maça', 'uva', 'morango'], mapCallback));
 
 /** Some Function */
 
@@ -58,7 +58,7 @@ function newSome(array, callback) {
     }
     return false;
 }
-// console.log(newSome([1, 2, 12], newSomeCallback));
+console.log(newSome([1, 2, 12], newSomeCallback));
 
 /** Find Function */
 const findArray = [2, 5, 12];
@@ -76,7 +76,7 @@ function newFind(array, callback) {
     }
     return false;
 }
-// console.log(newFind(findArray, findBiggerThenTen));
+console.log(newFind(findArray, findBiggerThenTen));
 
 /** FindIndex Function */
 const findIndexArray = [2, 5, 12];
@@ -94,7 +94,7 @@ function newFindIndex(array, callback) {
     }
     return -1;
 }
-// console.log(newFindIndex(findIndexArray, findBiggerThenTen));
+console.log(newFindIndex(findIndexArray, findBiggerThenTen));
 
 /** Every Function */
 
@@ -115,7 +115,7 @@ function newEvery(array, callback) {
     return output;
 }
 
-// console.log(newEvery(everyArray, isEveryBiggerThenTen));
+console.log(newEvery(everyArray, isEveryBiggerThenTen));
 
 /** Filter Function */
 const filterArray = [12, 5, 8, 130, 44];
@@ -134,7 +134,7 @@ function newFilter(array, callback) {
     }
     return output;
 }
-// console.log(newFilter(filterArray, isBigEnough));
+console.log(newFilter(filterArray, isBigEnough));
 
 /** Concat Function */
 
@@ -143,7 +143,7 @@ function newConcat(arr1, arr2) {
     output = [...arr1, ...arr2];
     return output;
 }
-// console.log(newConcat([1,2,3], [4,5,6]));
+console.log(newConcat([1,2,3], [4,5,6]));
 
 /** Includes Function */
 
@@ -155,7 +155,7 @@ function newIncludes(array, element, fromIndex = 0) {
     }
     return false;
 }
-// console.log(newIncludes([1,2,3], 2));
+console.log(newIncludes([1,2,3], 2));
 
 /** IndexOf Function */
 
@@ -167,7 +167,7 @@ function newIndexOf(array, searchElem, fromIndex = 0) {
     }
     return -1;
 }
-// console.log(newIndexOf([2,5,9], 2));
+console.log(newIndexOf([2,5,9], 2));
 
 /** Join Function */
 
@@ -192,7 +192,7 @@ function newJoin(arr, elem) {
     }
     return output;
 }
-// console.log(newJoin(['Fire', 'Air', 'Water'], '*'))
+console.log(newJoin(['Fire', 'Air', 'Water'], '*'))
 
 /** Reduce Function */
 
